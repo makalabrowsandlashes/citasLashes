@@ -1,0 +1,13 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  color: black;
+  background-color: #f4f4f4;
+}
+
+tr:nth-child(even) {
+  background-color: #fafafa;
+}
