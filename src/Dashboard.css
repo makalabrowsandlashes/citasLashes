@@ -1,0 +1,68 @@
+.citas-dashboard{
+    padding: 0 20px
+
+}
+
+.citas-dashboard h2{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 600;
+}
+
+.citas-dashboard-bar{
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center ;
+    padding-bottom: 20px;
+}
+
+.citas-dashboard-bar button{
+    cursor: pointer;
+    margin: 10px 10px;
+    padding: 0 20px;
+    text-align: center;
+    font-family: Poppins;
+    height: 35px;
+}
+
+.citas-dashboard-bar select{
+    cursor: pointer;
+    margin: 10px 10px;
+    padding: 0 20px;
+    text-align: center;
+    font-family: Poppins;
+    height: 35px;
+}
+
+.citas-dashboard-bar input{
+    padding: 0;
+    font-family: Poppins;
+}
+
+.citas-dashboard-bar span{
+    padding: 0;
+    font-family: Poppins;
+}
+
+
+.citas-dashboard-search{
+    display: flex;
+    align-items: center ;
+}
+
+.citas-dashboard-table{
+    width: 100%;
+    background-color: rgb(146, 146, 146);
+    color: rgb(15, 15, 15);
+    font-family: Poppins;
+    font-size: 0.8em;
+    text-align: center;
+
+}
+
+.citas-dashboard-table .fecha{
+    width: 80px;
+}

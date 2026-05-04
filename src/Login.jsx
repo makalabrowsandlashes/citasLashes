@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import { supabase } from './supabaseClient.js'
+import makalaLogo from './assets/makala-logo.png'
+import './Login.css'
 
 function Login() {
   const [email, setEmail] = useState('')
@@ -22,11 +24,13 @@ function Login() {
   }
 
   return (
-    <div style={{ padding: '20px' }}>
-      <h2>Login</h2>
+    <div className='citas-login' >
+      <img src={ makalaLogo }/>
+      <span>Registros - Citas de pestañas</span>
+      <h2>Iniciar sesión</h2>
 
       <form onSubmit={handleLogin}>
-        <div>
+        <div className='citas-login-input'>
           <input
             type="email"
             placeholder="Correo"
@@ -35,7 +39,7 @@ function Login() {
           />
         </div>
 
-        <div>
+        <div className='citas-login-input'>
           <input
             type="password"
             placeholder="Contraseña"
@@ -47,7 +51,7 @@ function Login() {
         <button type="submit">Ingresar</button>
       </form>
 
-      {errorMsg && <p style={{ color: 'red' }}>{errorMsg}</p>}
+      {errorMsg && <span style={{ color: 'red' }}>{errorMsg}</span>}
     </div>
   )
 }

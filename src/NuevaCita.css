@@ -1,0 +1,38 @@
+.citas-nuevacita{
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.citas-nuevacita h2{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-family: Poppins;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.citas-dashboard-form{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    width: 200px;
+}
+
+.citas-dashboard-form input{
+    padding: 0;
+    font-family: Poppins;
+    padding: 5px 20px;
+}
+
+.citas-dashboard-form button{
+    cursor: pointer;
+    margin: 10px 10px;
+    padding: 0 40px;
+    text-align: center;
+    font-family: Poppins;
+    height: 35px;
+}

@@ -1,0 +1,51 @@
+.citas-login{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.citas-login h2{
+    text-align: center;
+    font-family: Poppins;
+    font-weight: 600;
+}
+
+.citas-login-input{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.citas-login-input input{
+    padding: 10px;
+    font-family: poppins;
+}
+
+.citas-login form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.citas-login button{
+    cursor: pointer;
+    margin: 20px;
+    padding: 5px 30px;
+    text-align: center;
+    font-family: Poppins;
+    font-weight: 600;
+}
+
+.citas-login span{
+    font-size: 0.8em;
+    text-align: center;
+    font-family: Poppins;
+        padding-bottom: 20px;
+}
+
+.citas-login img{
+    width: 200px;
+}

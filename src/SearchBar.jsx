@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-function SearchBar({ onSearch }) {
+function SearchBar({ onSearch, filtro }) {
   const [query, setQuery] = useState('')
 
   const handleChange = (e) => {
@@ -12,13 +12,12 @@ function SearchBar({ onSearch }) {
   return (
     <input
       type="text"
-      placeholder="Buscar por cliente..."
+      placeholder={`Buscar por ${filtro}`}
       value={query}
       onChange={handleChange}
       style={{
         padding: '8px',
         width: '300px',
-        marginBottom: '20px'
       }}
     />
   )
